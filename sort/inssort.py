@@ -1,5 +1,6 @@
 # 挿入ソート
 # 実行時間 : O(n^2)
+# 安定である
 def inssort(a):
     for i in range(1, len(a)):
         x = a[i]

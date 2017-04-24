@@ -1,5 +1,6 @@
 # バブルソート
 # 実行時間 O(n^2)
+# 安定である
 def bubsort(a):
     k = len(a) - 1
     while k >= 0:
