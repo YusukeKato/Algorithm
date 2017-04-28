@@ -1,2 +1,7 @@
 for i in range(5,1, -1):
   print(i)
+count = 0
+while count < 100:
+  if count < 100: break
+  print(count)
+  count += 1
